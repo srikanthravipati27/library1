@@ -44,7 +44,7 @@ class BookDAO():
 
 		print(book)
 		return book
-
+#these are the models
 	def available(self, id):
 		book = self.getById(id)
 		count = book['count']
